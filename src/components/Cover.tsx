@@ -119,16 +119,16 @@ function EnvelopeBody() {
     >
       <defs>
         <linearGradient id="envBodyGrad" x1="130" y1="60" x2="130" y2="186" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#1f1510" />
-          <stop offset="100%" stopColor="#150e09" />
+          <stop offset="0%" stopColor="#e8d9b8" />
+          <stop offset="100%" stopColor="#d4c49a" />
         </linearGradient>
         <linearGradient id="shadowLeft" x1="0" y1="0" x2="130" y2="60" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#0a0a0a" stopOpacity="0.3" />
-          <stop offset="100%" stopColor="#0a0a0a" stopOpacity="0" />
+          <stop offset="0%" stopColor="#6b5230" stopOpacity="0.25" />
+          <stop offset="100%" stopColor="#6b5230" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="shadowRight" x1="260" y1="0" x2="130" y2="60" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#0a0a0a" stopOpacity="0.3" />
-          <stop offset="100%" stopColor="#0a0a0a" stopOpacity="0" />
+          <stop offset="0%" stopColor="#6b5230" stopOpacity="0.25" />
+          <stop offset="100%" stopColor="#6b5230" stopOpacity="0" />
         </linearGradient>
       </defs>
 
@@ -137,11 +137,11 @@ function EnvelopeBody() {
 
       {/* Body */}
       <rect x="1" y="60" width="258" height="124" rx="3" fill="url(#envBodyGrad)" />
-      <rect x="1" y="60" width="258" height="124" rx="3" stroke="#c9a961" strokeWidth="0.8" strokeOpacity="0.3" />
+      <rect x="1" y="60" width="258" height="124" rx="3" stroke="#c9a961" strokeWidth="0.8" strokeOpacity="0.55" />
 
       {/* Fold lines from bottom corners → center crease */}
-      <line x1="1" y1="184" x2="130" y2="124" stroke="#c9a961" strokeWidth="0.6" strokeOpacity="0.15" />
-      <line x1="259" y1="184" x2="130" y2="124" stroke="#c9a961" strokeWidth="0.6" strokeOpacity="0.15" />
+      <line x1="1" y1="184" x2="130" y2="124" stroke="#c9a961" strokeWidth="0.6" strokeOpacity="0.35" />
+      <line x1="259" y1="184" x2="130" y2="124" stroke="#c9a961" strokeWidth="0.6" strokeOpacity="0.35" />
 
       {/* Subtle inner vignette */}
       <rect x="1" y="60" width="130" height="124" fill="url(#shadowLeft)" />
@@ -184,8 +184,8 @@ function FlapWithSeal({ state }: { state: State }) {
         >
           <defs>
             <linearGradient id="flapGrad" x1="130" y1="0" x2="130" y2="128" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#211611" />
-              <stop offset="100%" stopColor="#1a1008" />
+              <stop offset="0%" stopColor="#dfd0b0" />
+              <stop offset="100%" stopColor="#c9b890" />
             </linearGradient>
           </defs>
           {/* Triangle pointing DOWN (sealed position) */}
@@ -198,7 +198,7 @@ function FlapWithSeal({ state }: { state: State }) {
             fill="none"
             stroke="#c9a961"
             strokeWidth="0.8"
-            strokeOpacity="0.3"
+            strokeOpacity="0.55"
           />
         </svg>
 

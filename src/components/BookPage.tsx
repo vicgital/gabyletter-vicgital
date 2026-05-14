@@ -86,9 +86,9 @@ export function BookPage({ page, pageIndex, totalPages, direction, onNext, onPre
         </motion.button>
       )}
 
-      {/* Media — top ~55% of screen */}
-      <div className="flex-none pt-safe" style={{ paddingTop: 'env(safe-area-inset-top, 0px)', height: '54vh' }}>
-        <div className="h-full px-5 pt-4">
+      {/* Media — constrained so text + nav always fit on small phones */}
+      <div className="flex-none pt-safe" style={{ paddingTop: 'env(safe-area-inset-top, 0px)', height: '44dvh' }}>
+        <div className="h-full px-5 pt-3">
           <MediaDisplay
             type={page.media.type}
             src={page.media.src}
