@@ -41,7 +41,7 @@ export const pages: PageContent[] = [
       src: '/media/page-3.mp4',
       alt: 'El tiempo',
     },
-    text: 'Guns N\' Roses tocando, la gente gritando, y tú me abrazabas para protegerte del frío. Yo ya sabía que me gustabas. Pero esa noche, con tu cabeza descansando en mi espalda y miles de personas alrededor, todo se quedó en silencio por un segundo.\n\nAhí sentí algo que no había sentido con nadie: contigo el mundo se siente en paz.',
+    text: 'Guns N\' Roses tocando, la gente gritando, y tú me abrazabas para protegerte del frío. Yo ya sabía que me gustabas. Pero esa noche, con tu cabeza descansando en mi espalda y miles de personas alrededor, todo se quedó en silencio por un segundo.\nAhí sentí algo que no había sentido con nadie: contigo el mundo se siente en paz.',
     effect: 'petals',
   },
   {
