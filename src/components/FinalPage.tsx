@@ -87,7 +87,7 @@ export function FinalPage() {
           >
             {/* Chapter indicator */}
             <p className="font-sans text-[9px] tracking-[0.55em] text-gold/30 uppercase mb-10">
-              Y por ultimo ...quiero decirte algo importante
+              Y por ultimo..
             </p>
 
             {/* Decorative envelope / paper icon */}
@@ -112,7 +112,7 @@ export function FinalPage() {
               whileTap={{ scale: 0.93, transition: { duration: 0.08 } }}
               disabled={stage === 'flipping'}
             >
-              Voltea la última página
+              Quiero decirte algo importante
             </motion.button>
 
             {/* Rose page-turn crease shadow — visible during flip */}

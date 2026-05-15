@@ -41,7 +41,7 @@ export const pages: PageContent[] = [
       src: 'https://gabyletter.blob.core.windows.net/media/page-3.mp4',
       alt: 'Video mio programando la carta para gaby',
     },
-    text: "Cada instante a tu lado ha sido un gran regalo y hoy quiero regalarte esta carta en una web app que programé pensando en ti y en nosotros. Expresarte lo que siento por ti de una manera diferente y a mi estilo.\n\nEspero que disfrutes cada página tanto como yo disfruté creándola para ti...",
+    text: "Cada instante a tu lado ha sido un gran regalo y hoy quiero regalarte esta carta en una web app que programé pensando en ti y en nosotros. Expresarte lo que siento por ti de una manera diferente y a mi estilo.\nEspero que disfrutes cada página tanto como yo disfruté creándola para ti...",
     effect: 'sparkles',
   },
   /// ... more pages here ...  
