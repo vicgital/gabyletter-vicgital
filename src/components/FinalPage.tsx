@@ -87,7 +87,7 @@ export function FinalPage() {
           >
             {/* Chapter indicator */}
             <p className="font-sans text-[9px] tracking-[0.55em] text-gold/30 uppercase mb-10">
-              última página
+              Y por ultimo ...quiero decirte algo importante
             </p>
 
             {/* Decorative envelope / paper icon */}
